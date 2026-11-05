@@ -1,5 +1,7 @@
 # Sales DWH
 
+Portfolio project built to simulate real business scenario I encountered in my work.
+
 ## Project Overview
 
 This project implements a **Sales Data Warehouse (DWH)** designed and orchestrated through **KNIME Analytics Platform**, connected to a **PostgreSQL database hosted on AWS**. The pipeline performs full **ETL (Extract–Transform–Load)** operations — extracting transactional data, transforming it into clean, structured dimensions and facts, and loading it into a star-schema model.
