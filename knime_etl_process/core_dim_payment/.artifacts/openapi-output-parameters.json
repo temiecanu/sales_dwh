@@ -1,0 +1,88 @@
+{
+    "type": "object",
+    "properties": {
+        "table-output": {
+            "type": "object",
+            "properties": {
+                "table-spec": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "payment_pk": {
+                                "type": "string",
+                                "default": "long"
+                            }
+                        }
+                    }
+                },
+                "table-data": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "type": "integer",
+                            "default": 1
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "table-spec": [
+                    {
+                        "payment_pk": "long"
+                    },
+                    {
+                        "payment": "string"
+                    },
+                    {
+                        "loyalty_card": "string"
+                    }
+                ],
+                "table-data": [
+                    [
+                        1,
+                        "visa",
+                        "F"
+                    ],
+                    [
+                        2,
+                        "americanexpress",
+                        "T"
+                    ],
+                    [
+                        3,
+                        "mastercard",
+                        "T"
+                    ],
+                    [
+                        4,
+                        "visa",
+                        "T"
+                    ],
+                    [
+                        5,
+                        "cash",
+                        "T"
+                    ],
+                    [
+                        6,
+                        "mastercard",
+                        "F"
+                    ],
+                    [
+                        7,
+                        "cash",
+                        "F"
+                    ],
+                    [
+                        8,
+                        "americanexpress",
+                        "F"
+                    ]
+                ]
+            }
+        }
+    }
+}

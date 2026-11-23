@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
+    <config key="Session Info">
+        <entry key="version" type="xint" value="7"/>
+        <entry key="sessionID" type="xstring" value="f088372b-d684-43a1-bbb1-ed8a806dfb29"/>
+        <entry key="dbTypeId" type="xstring" value="postgres"/>
+        <entry key="dialectId" type="xstring" value="postgres"/>
+        <entry key="dbURL" type="xstring" value="jdbc:postgresql://database-postgres-1.c6zgii0c46bg.us-east-1.rds.amazonaws.com:5432/DataWarehouseX"/>
+        <entry key="authenticationType" type="xstring" value="USER_PWD"/>
+        <entry key="dbUser" type="xstring" value="postgres"/>
+        <entry key="dbPassword" type="xpassword" value="02DAAAAGMq_QxveL1vZ0EBj3tW_iwtWF0YpRCLJ_QmkEs="/>
+        <entry key="host" type="xstring" value="database-postgres-1.c6zgii0c46bg.us-east-1.rds.amazonaws.com"/>
+    </config>
+    <config key="Driver Definition">
+        <entry key="driverId" type="xstring" value="built-in-postgres-42.7.3"/>
+        <entry key="driverName" type="xstring" value="Driver for PostgreSQL v.42.7.3"/>
+        <entry key="driverVersion" type="xstring" value="42.7.0"/>
+        <entry key="driverClass" type="xstring" value="org.postgresql.Driver"/>
+        <entry key="driverDescription" type="xstring" value=""/>
+        <entry key="driverOrigin" type="xstring" value="EXTENSION"/>
+        <entry key="deprecated" type="xboolean" value="false"/>
+    </config>
+    <config key="Attributes">
+        <config key="java.lang.Boolean">
+            <entry key="knime.db.connection.restore" type="xboolean" value="true"/>
+        </config>
+    </config>
+</config>
